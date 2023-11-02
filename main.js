@@ -48,8 +48,8 @@ const swiper = new Swiper('.swiper-container', {
 /* ScrollReveal: Mostrar quando der scroll na pagina */
 const scrollReveal = ScrollReveal({
   origin: 'top',
-  distance: '30px',
-  duration: 700,
+  distance: '25px',
+  duration: 550,
   reset: true
 })
 
@@ -59,5 +59,5 @@ scrollReveal.reveal(
                #services header, #services .text, #services .image,
                #testimonials header, #testimonials .testimonials,
                #contact .text, #contact .links`,
-  { interval: 100 }
+  { interval: 150 }
 )
